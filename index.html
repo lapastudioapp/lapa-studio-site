@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lapa Studio · Made with a soft paw</title>
+  <meta name="description" content="Lapa Studio is a tiny, independent team that designs and builds thoughtful mobile apps for iOS and Android. Makers of Nata, a calm planner for your day.">
+  <link rel="icon" href="assets/cat.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-today" viewBox="0 0 24 24"><path d="M5 4h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1"/><path d="M5 16h4a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1"/><path d="M15 12h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1"/><path d="M15 4h4a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><path d="M10.5 21h-4.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v3"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M4 11h10"/><path d="M14 18a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M18 16.5v1.5l.5 .5"/></symbol><symbol id="i-tasks" viewBox="0 0 24 24"><path d="M13 5h8"/><path d="M13 9h5"/><path d="M13 15h8"/><path d="M13 19h5"/><path d="M3 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M3 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/></symbol><symbol id="i-notes" viewBox="0 0 24 24"><path d="M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2l0 -14"/><path d="M9 7l6 0"/><path d="M9 11l6 0"/><path d="M9 15l4 0"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M3.5 5.5l1.5 1.5l2.5 -2.5"/><path d="M3.5 11.5l1.5 1.5l2.5 -2.5"/><path d="M3.5 17.5l1.5 1.5l2.5 -2.5"/><path d="M11 6l9 0"/><path d="M11 12l9 0"/><path d="M11 18l9 0"/></symbol><symbol id="i-share" viewBox="0 0 24 24"><path d="M3 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M15 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M15 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M8.7 10.7l6.6 -3.4"/><path d="M8.7 13.3l6.6 3.4"/></symbol><symbol id="i-dots" viewBox="0 0 24 24"><path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"/><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"/><path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3"/><path d="M20 12v3a3 3 0 0 1 -3 3h-13m3 3l-3 -3l3 -3"/></symbol><symbol id="i-cal" viewBox="0 0 24 24"><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2l0 -12"/><path d="M16 3l0 4"/><path d="M8 3l0 4"/><path d="M4 11l16 0"/><path d="M8 15h2v2h-2l0 -2"/></symbol><symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5l0 14"/><path d="M5 12l14 0"/></symbol><symbol id="i-down" viewBox="0 0 24 24"><path d="M6 9l6 6l6 -6"/></symbol></svg>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Lapa Studio, home">
+        <img src="assets/cat.svg" alt="" width="64" height="53">
+        <span>lapa studio</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="#legal">Legal</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">Mobile app studio</p>
+          <h1>Made with a soft&nbsp;paw.</h1>
+          <p class="lead">We turn ideas into mobile apps. Lapa Studio is a tiny, independent team that designs and builds thoughtful apps for iOS and Android.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#apps">Our apps
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-secondary" href="#contact">Work with us</a>
+          </div>
+        </div>
+
+        <div class="stage" aria-hidden="true">
+          <div class="phone phone-back android"><div class="nata rose-dark"><span class="n-island"></span><div class="n-status">9:41<span class="n-sys"><i></i><i></i><i></i></span></div><span class="n-gesture"></span><div class="n-head"><div><p class="n-greet">Good evening</p><p class="n-date">Saturday, 21 November</p></div><div class="n-round"><span><svg><use href="#i-cal"/></svg></span><span><svg><use href="#i-dots"/></svg></span></div></div><div class="n-week"><span class="">M<b>16</b></span><span class="">T<b>17</b></span><span class="">W<b>18</b></span><span class="">T<b>19</b></span><span class="">F<b>20</b></span><span class="now">S<b>21</b></span><span class="next">S<b>22</b></span></div><p class="n-h">Coming up</p><div class="n-event"><span class="n-time">11:00<i>12:30</i></span><div class="n-card" style="--edge:#f07a8c"><span class="grow"><span class="n-title">Farmers market</span></span></div></div><div class="n-event"><span class="n-time">19:00</span><div class="n-card" style="--edge:#a78bfa"><span class="grow"><span class="n-title">Dinner at Olha's</span><span class="n-sub">Bring dessert</span></span></div></div><p class="n-h">Tasks<small>(2)</small></p><div class="n-task"><span class="n-ring" style="--ring:#e6b84a"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Pack for the trip</span><span class="n-meta"><span>Due · Today, 20:00</span><span class="n-chip"><svg><use href="#i-check"/></svg>4/5<svg><use href="#i-down"/></svg></span></span></span><svg><use href="#i-share"/></svg></div><div class="n-task"><span class="n-ring"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Read 20 pages</span><span class="n-meta"><span>Every day</span><svg><use href="#i-repeat"/></svg></span></span></div><div class="n-bar"><div class="n-tabs"><span class="on"><svg><use href="#i-today"/></svg>Today</span><span><svg><use href="#i-calendar"/></svg>Calendar</span><span><svg><use href="#i-tasks"/></svg>Tasks</span><span><svg><use href="#i-notes"/></svg>Notes</span></div><span class="n-plus"><svg><use href="#i-plus"/></svg></span></div></div></div>
+          <div class="phone phone-front"><div class="nata teal"><span class="n-island"></span><div class="n-status">9:41</div><div class="n-head"><div><p class="n-greet">Good morning</p><p class="n-date">Friday, 20 November</p></div><div class="n-round"><span><svg><use href="#i-cal"/></svg></span><span><svg><use href="#i-dots"/></svg></span></div></div><div class="n-week"><span class="">M<b>16</b></span><span class="">T<b>17</b></span><span class="">W<b>18</b></span><span class="">T<b>19</b></span><span class="now">F<b>20</b></span><span class="next">S<b>21</b></span><span class="next">S<b>22</b></span></div><p class="n-h">Coming up</p><div class="n-event"><span class="n-time">09:30<i>10:00</i></span><div class="n-card" style="--edge:#3b82f6"><span class="grow"><span class="n-title">Team call</span><span class="n-sub">Weekly sync</span></span><span class="n-tag">Work</span></div></div><div class="n-event"><span class="n-time">13:00</span><div class="n-card" style="--edge:#0f766e"><span class="grow"><span class="n-title">Lunch with Ira</span></span></div></div><div class="n-event"><span class="n-time">18:30<i>20:00</i></span><div class="n-card" style="--edge:#d9485f"><span class="grow"><span class="n-title">Yoga</span><span class="n-sub">Bring the mat</span></span><span class="n-tag">Health</span></div></div><p class="n-h">Tasks<small>(3)</small></p><div class="n-task"><span class="n-ring" style="--ring:#d9a21b"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Call the vet about Miso</span><span class="n-meta"><span>Due · Today, 17:00</span></span></span></div><div class="n-task"><span class="n-ring"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Pack for the trip</span><span class="n-meta"><span>Sat, 21 Nov</span><span class="n-chip"><svg><use href="#i-check"/></svg>2/5<svg><use href="#i-down"/></svg></span></span></span></div><div class="n-task"><span class="n-ring"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Water the plants</span><span class="n-meta"><span>Every Friday</span><svg><use href="#i-repeat"/></svg></span></span></div><div class="n-bar"><div class="n-tabs"><span class="on"><svg><use href="#i-today"/></svg>Today</span><span><svg><use href="#i-calendar"/></svg>Calendar</span><span><svg><use href="#i-tasks"/></svg>Tasks</span><span><svg><use href="#i-notes"/></svg>Notes</span></div><span class="n-plus"><svg><use href="#i-plus"/></svg></span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="highlights">
+      <div class="wrap">
+        <div class="highlight">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2.5"/><path d="M11 18h2"/></svg>
+          <div>
+            <h3>iOS &amp; Android</h3>
+            <p>One codebase in Kotlin Multiplatform, native feel on both platforms.</p>
+          </div>
+        </div>
+        <div class="highlight">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 4 8l8 4 8-4-8-4z"/><path d="m4 12 8 4 8-4"/><path d="m4 16 8 4 8-4"/></svg>
+          <div>
+            <h3>End to end</h3>
+            <p>From the idea and the design to the release and the updates that follow.</p>
+          </div>
+        </div>
+        <div class="highlight">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+          <div>
+            <h3>Small &amp; focused</h3>
+            <p>A boutique studio that cares about the details.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" id="apps">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Our apps</h2>
+        </div>
+
+        <article class="app-feature">
+          <div>
+            <div class="app-id">
+              <img class="app-icon" src="assets/nata-icon.png" alt="Nata app icon" width="64" height="64">
+              <div>
+                <h3>Nata</h3>
+                <p>Planner · iOS and Android</p>
+              </div>
+            </div>
+            <p>A calm planner for your day. Events, tasks, notes and reminders meet on one Today screen, so you see what matters without jumping between apps.</p>
+            <ul class="ticks">
+              <li>Today, a calendar with day, week and month, tasks and notes</li>
+              <li>Notes with checklists, photos and links</li>
+              <li>Reminders that ring on time, even offline</li>
+              <li>Shows the events from your phone's calendars</li>
+              <li>Works offline</li>
+              <li>In English and Ukrainian</li>
+            </ul>
+            <div class="badges">
+              <span class="badge">App Store</span>
+              <span class="badge">Google Play</span>
+              <span class="badge-note">Coming soon</span>
+            </div>
+            <p class="app-links"><a href="privacy.html">How Nata handles your data</a></p>
+          </div>
+          <div class="app-shot" aria-hidden="true">
+            <div class="phone"><div class="nata forest"><span class="n-island"></span><div class="n-status">9:41</div><div class="n-head"><div><p class="n-greet">Good afternoon</p><p class="n-date">Monday, 16 November</p></div><div class="n-round"><span><svg><use href="#i-cal"/></svg></span><span><svg><use href="#i-dots"/></svg></span></div></div><div class="n-week"><span class="now">M<b>16</b></span><span class="next">T<b>17</b></span><span class="next">W<b>18</b></span><span class="next">T<b>19</b></span><span class="next">F<b>20</b></span><span class="next">S<b>21</b></span><span class="next">S<b>22</b></span></div><p class="n-h">Coming up</p><div class="n-event"><span class="n-time">15:00<i>16:00</i></span><div class="n-card" style="--edge:#d9485f"><span class="grow"><span class="n-title">Dentist</span><span class="n-sub">Dr. Koval, room 4</span></span><span class="n-tag">Health</span></div></div><div class="n-event"><span class="n-time">19:30</span><div class="n-card" style="--edge:#2f6b3f"><span class="grow"><span class="n-title">Movie night</span></span></div></div><p class="n-h">Tasks<small>(4)</small></p><div class="n-task"><span class="n-ring" style="--ring:#d9a21b"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Send the invoice</span><span class="n-meta"><span>Due · Today, 18:00</span></span></span></div><div class="n-task"><span class="n-ring"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Groceries</span><span class="n-meta"><span>Today</span><span class="n-chip"><svg><use href="#i-check"/></svg>1/6<svg><use href="#i-down"/></svg></span></span></span><svg><use href="#i-share"/></svg></div><div class="n-task"><span class="n-ring"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Plan the day</span><span class="n-meta"><span>Every day</span><svg><use href="#i-repeat"/></svg></span></span></div><div class="n-task"><span class="n-ring"></span><span class="grow" style="flex:1;min-width:0"><span class="n-title">Stretch</span><span class="n-meta"><span>Every Monday</span><svg><use href="#i-repeat"/></svg></span></span></div><div class="n-bar"><div class="n-tabs"><span class="on"><svg><use href="#i-today"/></svg>Today</span><span><svg><use href="#i-calendar"/></svg>Calendar</span><span><svg><use href="#i-tasks"/></svg>Tasks</span><span><svg><use href="#i-notes"/></svg>Notes</span></div><span class="n-plus"><svg><use href="#i-plus"/></svg></span></div></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="about-art">
+          <img src="assets/cat.svg" alt="Lapa, the studio's cat, asleep" width="400" height="332">
+        </div>
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>About Lapa Studio</h2>
+          <p>A small, independent studio named after Lapa, our curious and ever-sleepy cat. We build our own mobile products and partner on select projects where we can bring real value with design, development and care.</p>
+          <p>We build with Kotlin Multiplatform and Compose Multiplatform: shared code where it saves time, native where it helps. Performance, privacy and the store requirements are part of the work from the first day, not a task for the week before release.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="legal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Legal</h2>
+        </div>
+        <div class="legal-grid">
+          <a class="legal-card" href="privacy.html">
+            <h3>Privacy Policy</h3>
+            <p>What data our apps handle, why, and your rights.</p>
+          </a>
+          <a class="legal-card" href="terms.html">
+            <h3>Terms of Use</h3>
+            <p>The rules for using our apps, purchases and the app stores.</p>
+          </a>
+          <a class="legal-card" href="delete-data.html">
+            <h3>Data deletion</h3>
+            <p>How to delete your data from our apps, and from us.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="cta">
+          <div>
+            <h2>Have an idea for an app?</h2>
+            <p>Let's talk about it. We're open to new product ideas, collaborations and development projects. The same address works for app support and privacy questions.</p>
+          </div>
+          <div class="cta-side">
+            <a class="btn btn-primary" href="mailto:lapa.studio.app@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              Get in touch
+            </a>
+            <span class="cta-mail">lapa.studio.app@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-brand">
+        <a class="brand" href="./" aria-label="Lapa Studio, home">
+          <img src="assets/cat.svg" alt="" width="52" height="43">
+          <span>lapa studio</span>
+        </a>
+        <p>Made with a soft paw.<br>Mobile apps for iOS and Android.</p>
+      </div>
+      <nav class="footer-links" aria-label="Legal">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="delete-data.html">Data deletion</a>
+        <a href="mailto:lapa.studio.app@gmail.com">Contact</a>
+      </nav>
+      <p class="copyright">© 2026 Lapa Studio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
