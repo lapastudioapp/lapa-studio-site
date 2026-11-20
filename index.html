@@ -7,6 +7,8 @@
   <meta name="description" content="Lapa Studio is a tiny, independent team that designs and builds thoughtful mobile apps for iOS and Android. Makers of Nata, a calm planner for your day.">
   <link rel="icon" href="assets/cat.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+  <script src="theme.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -15,15 +17,21 @@
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="./" aria-label="Lapa Studio, home">
-        <img src="assets/cat.svg" alt="" width="64" height="53">
+        <img class="cat-light" src="assets/cat.svg" alt="" width="64" height="53"><img class="cat-dark" src="assets/cat-dark.svg" alt="" width="64" height="53">
         <span>lapa studio</span>
       </a>
-      <nav class="nav" aria-label="Main">
-        <a href="#apps">Apps</a>
-        <a href="#about">About</a>
-        <a href="#legal">Legal</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="header-end">
+        <nav class="nav" aria-label="Main">
+          <a href="#apps">Apps</a>
+          <a href="#about">About</a>
+          <a href="#legal">Legal</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch between light and dark">
+          <svg class="when-light" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"/></svg>
+          <svg class="when-dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"/></svg>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -116,7 +124,7 @@
     <section class="section" id="about">
       <div class="wrap about">
         <div class="about-art">
-          <img src="assets/cat.svg" alt="Lapa, the studio's cat, asleep" width="400" height="332">
+          <img class="cat-light" src="assets/cat.svg" alt="Lapa, the studio's cat, asleep" width="400" height="332"><img class="cat-dark" src="assets/cat-dark.svg" alt="Lapa, the studio's cat, asleep" width="400" height="332">
         </div>
         <div>
           <p class="eyebrow">About</p>
@@ -172,7 +180,7 @@
     <div class="wrap">
       <div class="footer-brand">
         <a class="brand" href="./" aria-label="Lapa Studio, home">
-          <img src="assets/cat.svg" alt="" width="52" height="43">
+          <img class="cat-light" src="assets/cat.svg" alt="" width="52" height="43"><img class="cat-dark" src="assets/cat-dark.svg" alt="" width="52" height="43">
           <span>lapa studio</span>
         </a>
         <p>Made with a soft paw.<br>Mobile apps for iOS and Android.</p>
